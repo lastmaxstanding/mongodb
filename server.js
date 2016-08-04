@@ -26,7 +26,7 @@ db.on('error', function(err) {
 
 // Main route (simple Hello World Message)
 app.get('/', function(req, res) {
-  res.render(index.html);
+  res.send(index.html);
 });
 
 
